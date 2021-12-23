@@ -169,12 +169,12 @@ section.kv .container h2 {
 }
 
 section.kv .container h1 {
-  top: 30px;
+  top: 20px;
   color: var(--color-orange);
 }
 
 section.kv .container h2 {
-  top: 150px;
+  top: 120px;
 }
 
 section.kv .container .contents {
@@ -196,8 +196,11 @@ section.kv .container .contents {
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
   }
+  section.kv .container .contents h1 {
+    top: 5px;
+  }
   section.kv .container .contents h2 {
-    top: 160px;
+    top: 120px;
   }
 }
 
@@ -208,12 +211,6 @@ section.kv .container .contents {
   section.kv .container .contents img {
     -o-object-fit: contain;
        object-fit: contain;
-  }
-  section.kv .container .contents h1 {
-    top: 60px;
-  }
-  section.kv .container .contents h2 {
-    top: 180px;
   }
 }
 

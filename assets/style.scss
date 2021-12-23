@@ -138,19 +138,17 @@ section.kv {
     h1,
     h2 {
       position: absolute;
-      // left: 50%;
-      // transform: translate(-50%, 0);
       left: 30px;
       white-space: nowrap;
     }
 
     h1 {
-      top: 30px;
+      top: 20px;
       color: var(--color-orange);
     }
 
     h2 {
-      top: 150px;
+      top: 120px;
     }
 
     .contents {
@@ -174,8 +172,11 @@ section.kv {
           left: 50%;
           transform: translate(-50%, 0);
         }
+        h1 {
+          top: 5px;
+        }
         h2 {
-          top: 160px;
+          top: 120px;
         }
       }
     }
@@ -189,12 +190,6 @@ section.kv {
       .contents {
         img {
           object-fit: contain;
-        }
-        h1 {
-          top: 60px;
-        }
-        h2 {
-          top: 180px;
         }
       }
     }
