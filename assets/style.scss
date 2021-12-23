@@ -537,6 +537,7 @@ section.history {
 
           p {
             margin-top: 24px;
+            font-weight: 600;
 
             &:first-child {
               margin-top: 0;
@@ -561,7 +562,7 @@ section.history {
           }
           .text {
             a {
-              font-size: 12px;
+              font-size: 10px;
 
               .icon {
                 width: 14px !important;

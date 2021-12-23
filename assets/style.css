@@ -557,6 +557,7 @@ section.history .container ul li .text a .icon {
 
 section.history .container ul li .text p {
   margin-top: 24px;
+  font-weight: 600;
 }
 
 section.history .container ul li .text p:first-child {
@@ -569,7 +570,7 @@ section.history .container ul li .text p:first-child {
     font-size: 20px;
   }
   section.history .container ul li .text a {
-    font-size: 12px;
+    font-size: 10px;
   }
   section.history .container ul li .text a .icon {
     width: 14px !important;
