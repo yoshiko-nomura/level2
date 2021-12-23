@@ -307,18 +307,24 @@ section.contents .container .button a:hover {
 }
 
 table {
+  word-break: break-all;
   width: 100%;
   border-collapse: collapse;
 }
 
-table td {
-  padding: 12px 12px 0;
+table tr {
+  width: 100%;
 }
 
 table th {
   padding: 12px 0;
   width: 20%;
   white-space: nowrap;
+}
+
+table td {
+  padding: 12px 12px 0;
+  width: 80%;
 }
 
 table ul li {
@@ -396,10 +402,6 @@ section.main .container ul li img {
 
 section.info .container {
   max-width: 1000px;
-}
-
-section.info .container .img {
-  height: 350px;
 }
 
 section.info .container p {

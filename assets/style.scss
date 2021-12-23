@@ -285,11 +285,12 @@ section.contents {
 }
 
 table {
+  word-break: break-all;
   width: 100%;
   border-collapse: collapse;
 
-  td {
-    padding: 12px 12px 0;
+  tr {
+    width: 100%;
   }
 
   th {
@@ -297,9 +298,15 @@ table {
     width: 20%;
     white-space: nowrap;
   }
+  td {
+    padding: 12px 12px 0;
+    width: 80%;
+  }
 
   ul {
+    // width: 80%;
     li {
+      // width: 80%;
       margin-top: 10px;
 
       &:first-child {
@@ -379,7 +386,7 @@ section.info {
     max-width: 1000px;
 
     .img {
-      height: 350px;
+      // height: 350px;
     }
     p {
       margin-top: 8px;
