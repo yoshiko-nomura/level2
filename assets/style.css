@@ -335,8 +335,8 @@ table ul li a {
 
 section.main .container,
 section.info .container,
-section.recruit .container {
-  padding: 50px 20px 20px !important;
+section.recruit-info .container {
+  padding: 50px 20px 20px;
 }
 
 section.main {
@@ -458,39 +458,39 @@ section.info .container ul:last-child li .icon {
   margin-right: 10px;
 }
 
-section.recruit .container table,
-section.recruit .container th,
-section.recruit .container td {
+section.recruit-info .container table,
+section.recruit-info .container th,
+section.recruit-info .container td {
   border: 1px solid var(--color-gray);
 }
 
-section.recruit .container table:nth-of-type(2) {
+section.recruit-info .container table:nth-of-type(2) {
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
-section.recruit .container tr:first-child td {
+section.recruit-info .container tr:first-child td {
   padding: 30px 30px;
   font-size: 24px;
 }
 
-section.recruit .container th,
-section.recruit .container td {
+section.recruit-info .container th,
+section.recruit-info .container td {
   padding: 12px 30px;
 }
 
-section.recruit .container th {
+section.recruit-info .container th {
   min-width: 120px;
   background-color: var(--color-beige);
 }
 
 @media screen and (max-width: 760px) {
-  section.recruit .container th,
-  section.recruit .container td {
+  section.recruit-info .container th,
+  section.recruit-info .container td {
     padding: 12px 10px;
     font-size: 14px;
   }
-  section.recruit .container tr:first-child td {
+  section.recruit-info .container tr:first-child td {
     padding: 30px 10px;
     font-size: 18px;
   }

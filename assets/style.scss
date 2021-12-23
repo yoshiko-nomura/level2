@@ -315,9 +315,9 @@ table {
 
 section.main,
 section.info,
-section.recruit {
+section.recruit-info {
   .container {
-    padding: 50px 20px 20px !important;
+    padding: 50px 20px 20px;
   }
 }
 
@@ -427,7 +427,7 @@ section.info {
   }
 }
 
-section.recruit {
+section.recruit-info {
   .container {
     table,
     th,
@@ -460,7 +460,7 @@ section.recruit {
 }
 
 @media screen and (max-width: 760px) {
-  section.recruit {
+  section.recruit-info {
     .container {
       th,
       td {
